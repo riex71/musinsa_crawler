@@ -11,7 +11,7 @@ BASE_DIR = Path(__file__).resolve().parent
 CATEGORIES_ROOT = BASE_DIR / "categories"
 CATEGORY_MASTER_CSV = BASE_DIR / "category_master.csv"
 
-MAX_SCROLLS_PER_SMALL_CATEGORY = 5
+MAX_SCROLLS_PER_SMALL_CATEGORY = 7
 WAIT_MS = 3000
 STOP_IF_NO_NEW_FOR = 2
 

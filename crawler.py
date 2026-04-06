@@ -30,7 +30,7 @@ HEADERS = {
 
 BATCH_SIZE = 100
 MAX_REVIEWS_PER_PRODUCT = 100
-CHUNK_SIZE = 10
+CHUNK_SIZE = 8
 
 
 def safe_get(d: dict, *keys, default: Any = None) -> Any:
