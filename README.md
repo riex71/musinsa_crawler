@@ -38,18 +38,29 @@
    └─ musinsa_train_ready.jsonl
    
 ```
+
+## ssh 접속
+- 터미널로 접속
+- 주피터로 접속
+http://qlak315.iptime.org:20109
+- vscode로 접속
+
 ## tmux
-### tmux 사용법 핵심
+### tmux 사용법
+- tmux 방 만들기
+```
+tmux new -s musinsa
+```
 세션에서 빠져나오기
 키보드로:
 Ctrl+b
 그다음 d
 그러면 작업은 계속 돌고, 세션만 빠져나옴.
-다시 붙기
+- 다시 붙기
 ```
 tmux attach -t musinsa
 ```
-세션 목록 보기
+- 세션 목록 보기
 ```
 tmux ls
 ```
@@ -66,40 +77,22 @@ apt update
 apt install -y tmux
 tmux new -s musinsa
 cd /data/musinsa_crawler
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -U pip
-pip install requests playwright
-playwright install chromium
+curl -L -s -S -f https://astral.sh/uv/install.sh | sh
+source ~/.bashrc
+uv python install 3.12
+uv sync
+uv run playwright install chromium
 ```
 - 그다음 평소엔:
 ```
 tmux attach -t musinsa
 cd /data/musinsa_crawler
-source .venv/bin/activate
 git pull
-python collect_urls.py
-python check_collect_urls.py
-python crawler.py
+uv run python crawler.py
 ```
 - 마지막엔:
 ```
 uv run python merge_small_to_big.py
 uv run python merge_all.py
 uv run python clean_reviews.py
-```
-- 명령어 요약
-```
-apt update
-apt install -y tmux
-tmux new -s musinsa
-cd /data/musinsa_crawler
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -U pip
-pip install requests playwright
-playwright install chromium
-python collect_urls.py
-python check_collect_urls.py
-python crawler.py
 ```

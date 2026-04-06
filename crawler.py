@@ -1,6 +1,5 @@
 import csv
 import json
-import math
 import random
 import re
 import time
@@ -30,7 +29,7 @@ HEADERS = {
 
 BATCH_SIZE = 100
 MAX_REVIEWS_PER_PRODUCT = 100
-CHUNK_SIZE = 8
+TOTAL_CHUNKS = 8
 
 
 def safe_get(d: dict, *keys, default: Any = None) -> Any:
@@ -110,8 +109,28 @@ def load_category_master(csv_path: Path) -> list[dict[str, str]]:
     return rows
 
 
-def build_chunks(rows: list[dict[str, str]], chunk_size: int = CHUNK_SIZE) -> list[list[dict[str, str]]]:
-    return [rows[i:i + chunk_size] for i in range(0, len(rows), chunk_size)]
+def build_chunks(rows: list[dict[str, str]]) -> list[list[dict[str, str]]]:
+    if not rows:
+        return []
+
+    n = len(rows)
+    base = n // TOTAL_CHUNKS
+    rem = n % TOTAL_CHUNKS
+
+    chunks: list[list[dict[str, str]]] = []
+    start = 0
+
+    for i in range(TOTAL_CHUNKS):
+        size = base + (1 if i < rem else 0)
+        if size <= 0:
+            continue
+
+        chunk = rows[start:start + size]
+        if chunk:
+            chunks.append(chunk)
+        start += size
+
+    return chunks
 
 
 def choose_chunk(chunks: list[list[dict[str, str]]]) -> list[dict[str, str]]:
@@ -124,6 +143,7 @@ def choose_chunk(chunks: list[list[dict[str, str]]]) -> list[dict[str, str]]:
 
     while True:
         raw = input(f"\n실행할 청크 번호를 입력하세요 (1~{total_chunks}): ").strip()
+
         if not raw.isdigit():
             print("숫자만 입력해주세요.")
             continue
@@ -133,7 +153,7 @@ def choose_chunk(chunks: list[list[dict[str, str]]]) -> list[dict[str, str]]:
             selected = chunks[chunk_no - 1]
             print(f"\n선택된 청크: {chunk_no}")
             print(f"포함 소분류 수: {len(selected)}")
-            print("각 소분류당 이번 실행에서는 1배치(상품 100개)만 처리합니다.\n")
+            print(f"각 소분류당 이번 실행에서는 1배치(상품 {BATCH_SIZE}개)만 처리합니다.\n")
             return selected
 
         print("범위를 벗어났습니다.")
@@ -163,7 +183,11 @@ def log_error(error_file: Path, message: str) -> None:
     append_line(error_file, message)
 
 
-def load_product_entries(product_urls_file: Path, category_info: dict[str, str], error_file: Path) -> list[dict[str, Any]]:
+def load_product_entries(
+    product_urls_file: Path,
+    category_info: dict[str, str],
+    error_file: Path,
+) -> list[dict[str, Any]]:
     if not product_urls_file.exists():
         return []
 
@@ -312,6 +336,7 @@ def create_session() -> requests.Session:
     adapter = HTTPAdapter(max_retries=retry)
     session.mount("http://", adapter)
     session.mount("https://", adapter)
+
     return session
 
 
@@ -464,6 +489,7 @@ def ensure_csv_header(csv_path: Path) -> list[str]:
 def append_rows_to_csv(csv_path: Path, rows: list[dict[str, Any]], fieldnames: list[str]) -> None:
     if not rows:
         return
+
     with csv_path.open("a", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writerows(rows)
@@ -472,6 +498,7 @@ def append_rows_to_csv(csv_path: Path, rows: list[dict[str, Any]], fieldnames: l
 def append_rows_to_jsonl(jsonl_path: Path, rows: list[dict[str, Any]]) -> None:
     if not rows:
         return
+
     with jsonl_path.open("a", encoding="utf-8") as f:
         for row in rows:
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
@@ -570,7 +597,7 @@ def process_one_small_category(
 
 def main():
     category_rows = load_category_master(CATEGORY_MASTER_CSV)
-    chunks = build_chunks(category_rows, chunk_size=CHUNK_SIZE)
+    chunks = build_chunks(category_rows)
     selected_chunk = choose_chunk(chunks)
 
     session = create_session()
