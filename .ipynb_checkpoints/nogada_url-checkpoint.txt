@@ -1,0 +1,293 @@
+상의 101
+전체
+https://www.musinsa.com/category/001/goods?gf=A
+반소매 티셔츠 
+https://www.musinsa.com/category/001001/goods?gf=A
+셔츠/블라우스
+https://www.musinsa.com/category/001002/goods?gf=A
+긴소매티셔츠
+https://www.musinsa.com/category/001010/goods?gf=A
+맨투맨/스웨트
+https://www.musinsa.com/category/001005/goods?gf=A
+니트/스웨터
+https://www.musinsa.com/category/001006/goods?gf=A
+피케/카라티셔츠
+https://www.musinsa.com/category/001003/goods?gf=A
+후드티셔츠
+https://www.musinsa.com/category/001004/goods?gf=A
+민소매티셔츠
+https://www.musinsa.com/category/001011/goods?gf=A
+기타 상의
+https://www.musinsa.com/category/001008/goods?gf=A
+
+바지 003
+전체
+https://www.musinsa.com/category/003/goods?gf=A
+트레이닝/조거 팬츠
+https://www.musinsa.com/category/003004/goods?gf=A
+코튼 팬츠
+https://www.musinsa.com/category/003007/goods?gf=A
+데님 팬츠
+https://www.musinsa.com/category/003002/goods?gf=A
+슈트 팬츠/슬랙스
+https://www.musinsa.com/category/003008/goods?gf=A
+숏 팬츠
+https://www.musinsa.com/category/003009/goods?gf=A
+기타 하의
+https://www.musinsa.com/category/003006/goods?gf=A
+점프 슈트/오버올
+https://www.musinsa.com/category/003010/goods?gf=A
+레깅스
+https://www.musinsa.com/category/003005/goods?gf=A
+
+가방 004
+전체
+https://www.musinsa.com/category/004/goods?gf=A
+숄더백
+https://www.musinsa.com/category/004003/goods?gf=A
+메신저/크로스 백
+https://www.musinsa.com/category/004002/goods?gf=A
+토트백
+https://www.musinsa.com/category/004015/goods?gf=A
+에코백
+https://www.musinsa.com/category/004014/goods?gf=A
+보스턴/더블백
+https://www.musinsa.com/category/004006/goods?gf=A
+백팩
+https://www.musinsa.com/category/004001/goods?gf=A
+웨이스트 백
+https://www.musinsa.com/category/004007/goods?gf=A
+파우치 백
+https://www.musinsa.com/category/004013/goods?gf=A
+클러치 백
+https://www.musinsa.com/category/004005/goods?gf=A
+지갑/머니클립
+https://www.musinsa.com/category/004016/goods?gf=A
+캐리어
+https://www.musinsa.com/category/004009/goods?gf=A
+가방 소품
+https://www.musinsa.com/category/004012/goods?gf=A
+브리프 케이스
+https://www.musinsa.com/category/004008/goods?gf=A
+
+속옷/홈웨어 026
+전체
+https://www.musinsa.com/category/026/goods?gf=A
+남성 속옷 
+https://www.musinsa.com/category/026004/goods?gf=A
+홈웨어
+https://www.musinsa.com/category/026005/goods?gf=A
+여성 속옷 상의
+https://www.musinsa.com/category/026001/goods?gf=A
+여성 속옷 하의
+https://www.musinsa.com/category/026002/goods?gf=A
+여성 속옷 세트
+https://www.musinsa.com/category/026003/goods?gf=A
+
+부티크 105(근데 이거는 뷰티/악세서리 이런거 섞여있어서 일부러 안 넣었고 전체도 개내 포함되서 밑에 3개만 활용해야할듯.)
+전체
+https://www.musinsa.com/category/105/goods?gf=A
+의류
+https://www.musinsa.com/category/105001/goods?gf=A
+지갑/가방
+https://www.musinsa.com/category/105003/goods?gf=A
+슈즈
+https://www.musinsa.com/category/105002/goods?gf=A
+악세서리
+라이프스타일
+뷰티
+
+어스 108 (애도 뷰티/악세서리 이런거 섞여있어서 일부러 안 넣었고 전체도 개내 포함되서 밑에만 활용해야할듯.)
+전체
+https://www.musinsa.com/category/108/goods?gf=A
+의류
+https://www.musinsa.com/category/108001/goods?gf=A
+신발
+https://www.musinsa.com/category/108002/goods?gf=A
+패션소품
+https://www.musinsa.com/category/108003/goods?gf=A
+반려동물
+https://www.musinsa.com/category/108008/goods?gf=A
+스포츠/레저
+https://www.musinsa.com/category/108010/goods?gf=A
+뷰티
+디지털/가전
+가구/인테리어
+생활/주방
+컬처/취미/소품
+
+유즈드 109
+전체
+https://www.musinsa.com/category/109/goods?gf=A&isSoldOut=true&isComingSoon=false
+상의
+https://www.musinsa.com/category/109001/goods?gf=A&isSoldOut=true&isComingSoon=false
+아우터
+https://www.musinsa.com/category/109002/goods?gf=A&isSoldOut=true&isComingSoon=false
+바지
+https://www.musinsa.com/category/109003/goods?gf=A&isSoldOut=true&isComingSoon=false
+원피스/스커트
+https://www.musinsa.com/category/109004/goods?gf=A&isSoldOut=true&isComingSoon=false
+키즈
+https://www.musinsa.com/category/109005/goods?gf=A&isSoldOut=true&isComingSoon=false
+스포츠/레저
+https://www.musinsa.com/category/109006/goods?gf=A&isSoldOut=true&isComingSoon=false
+
+신발 103
+전체
+https://www.musinsa.com/category/103/goods?gf=A
+스니커즈
+https://www.musinsa.com/category/103004/goods?gf=A
+스포츠화
+https://www.musinsa.com/category/103005/goods?gf=A
+구두
+https://www.musinsa.com/category/103001/goods?gf=A
+샌들/슬리퍼
+https://www.musinsa.com/category/103003/goods?gf=A
+부츠/워커
+https://www.musinsa.com/category/103002/goods?gf=A
+신발용품
+https://www.musinsa.com/category/103006/goods?gf=A
+패딩/퍼 신발
+https://www.musinsa.com/category/103007/goods?gf=A
+
+아우터 002
+전체
+https://www.musinsa.com/category/002/goods?gf=A
+나일론/코치 재킷
+https://www.musinsa.com/category/002006/goods?gf=A
+트러거 재킷
+https://www.musinsa.com/category/002017/goods?gf=A
+사파리/헌팅 재킷
+https://www.musinsa.com/category/002014/goods?gf=A
+블루종/MA-1
+https://www.musinsa.com/category/002001/goods?gf=A
+아노락 재킷
+https://www.musinsa.com/category/002019/goods?gf=A
+래더/라이더스 재킷
+https://www.musinsa.com/category/002002/goods?gf=A
+슈트/블레이저 재킷
+https://www.musinsa.com/category/002003/goods?gf=A
+기타 아우터
+https://www.musinsa.com/category/002015/goods?gf=A
+카디건
+https://www.musinsa.com/category/002020/goods?gf=A
+트레이닝 재킷
+https://www.musinsa.com/category/002018/goods?gf=A
+겨울 싱글 코트
+https://www.musinsa.com/category/002007/goods?gf=A
+환절기 코트
+https://www.musinsa.com/category/002008/goods?gf=A
+베스트
+https://www.musinsa.com/category/002021/goods?gf=A
+스타디움 재킷
+https://www.musinsa.com/category/002004/goods?gf=A
+플리스/뽀글이
+https://www.musinsa.com/category/002023/goods?gf=A
+숏패딩/헤비 아우터
+https://www.musinsa.com/category/002012/goods?gf=A
+후드 집업
+https://www.musinsa.com/category/002022/goods?gf=A
+롱패딩/헤비 아우터
+https://www.musinsa.com/category/002013/goods?gf=A
+경량 패딩/패딩 베스트
+https://www.musinsa.com/category/002027/goods?gf=A
+겨울 더블 코트
+https://www.musinsa.com/category/002024/goods?gf=A
+무스탕/퍼
+https://www.musinsa.com/category/002025/goods?gf=A
+겨울 기타 코트
+https://www.musinsa.com/category/002009/goods?gf=A
+
+원피스/스커트 100
+전체
+https://www.musinsa.com/category/100/goods?gf=A
+미디스커트
+https://www.musinsa.com/category/100005/goods?gf=A
+맥시원피스
+https://www.musinsa.com/category/100003/goods?gf=A
+미니스커트
+https://www.musinsa.com/category/100004/goods?gf=A
+롱스커트
+https://www.musinsa.com/category/100006/goods?gf=A
+미디원피스
+https://www.musinsa.com/category/100002/goods?gf=A
+미니원피스
+https://www.musinsa.com/category/100001/goods?gf=A
+
+스포츠/레저 017
+전체
+https://www.musinsa.com/category/017/goods?gf=A
+상의
+https://www.musinsa.com/category/017016/goods?gf=A
+아우터
+https://www.musinsa.com/category/017018/goods?gf=A
+하의
+https://www.musinsa.com/category/017020/goods?gf=A
+가방
+https://www.musinsa.com/category/017025/goods?gf=A
+상하의세트
+https://www.musinsa.com/category/017021/goods?gf=A
+모자
+https://www.musinsa.com/category/017027/goods?gf=A
+기구/용품/장비
+https://www.musinsa.com/category/017024/goods?gf=A
+스커트
+https://www.musinsa.com/category/017017/goods?gf=A
+신발
+https://www.musinsa.com/category/017023/goods?gf=A
+원피스
+https://www.musinsa.com/category/017019/goods?gf=A
+잡화
+https://www.musinsa.com/category/017026/goods?gf=A
+수용복/비치웨어
+https://www.musinsa.com/category/017022/goods?gf=A
+
+아울렛 107
+전체
+https://www.musinsa.com/category/107/goods?gf=A
+의류
+https://www.musinsa.com/category/107001/goods?gf=A
+스포츠/레저 
+https://www.musinsa.com/category/107011/goods?gf=A
+패션소품
+https://www.musinsa.com/category/107003/goods?gf=A
+신발
+https://www.musinsa.com/category/107002/goods?gf=A
+키즈
+https://www.musinsa.com/category/107009/goods?gf=A
+
+키즈 106 (애도 홈 인테리어 장난감 교육 은 빼야할듯. 전체에서도)
+전체
+https://www.musinsa.com/category/106/goods?gf=A
+상의
+https://www.musinsa.com/category/106004/goods?gf=A
+신발
+https://www.musinsa.com/category/106012/goods?gf=A
+세트 의류
+https://www.musinsa.com/category/106008/goods?gf=A
+바지
+https://www.musinsa.com/category/106006/goods?gf=A
+아우터
+https://www.musinsa.com/category/106005/goods?gf=A
+속옷/홈웨어
+https://www.musinsa.com/category/106011/goods?gf=A
+액세서리/소품
+https://www.musinsa.com/category/106015/goods?gf=A
+홈인테리어/리빙
+12개월 이하
+https://www.musinsa.com/category/106009/goods?gf=A
+장난감
+교육
+모자
+https://www.musinsa.com/category/106014/goods?gf=A
+시즌/테마
+https://www.musinsa.com/category/106010/goods?gf=A
+원피스/스커트
+https://www.musinsa.com/category/106007/goods?gf=A
+가방/지갑
+https://www.musinsa.com/category/106013/goods?gf=A
+
+k-커넥트(전체, 의류/잡화, 앨범 굿즈 이렇게 있는데 의류잡화만 써야할듯)
+의류/잡화
+https://www.musinsa.com/category/111003/goods?gf=A
+
