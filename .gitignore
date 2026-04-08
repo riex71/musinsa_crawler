@@ -24,7 +24,7 @@ merged/
 cleaned/
 
 # Final analysis artifacts
-analysis_final/
+analysis_final/*
 !analysis_final/report.md
 !analysis_final/charts.pdf
 
